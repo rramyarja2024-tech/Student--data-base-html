@@ -5,44 +5,100 @@
 </head>
 <body>
     <h1>Student Database</h1>
-    <form>
+    <form>r
     <fieldset>
 <legend>Student Details</legend>
 <table>
     <tr>
 <td><label for="student register no.">Student Register No.</label></td>
-<td><input type="text" id="student register no." name="student register no." placeholder="eg.611424205001"></td>
-    </tr>
-    <tr>
+<td><input type="text" id="student register no." name="student register no." placeholder="eg.611424205001"> </td> 
+</tr> 
+<tr>
 <td><label for="full name">Full Name:</label></td>
 <td><input type="text" id="full name" name="full name" placeholder="R Ramya"></td>
+</tr>
+<tr>
+<td><label for="gender">Gender:</label></td>
+<td><select>
+    <option value="female">Female</option>
+    <option value="male">Male</option>
+    <option value="other">Other</option>
+</td></select>
+</tr>
+<tr>
+    <td><label for="blood group">Blood Group</label></td>
+    <td><select>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+<option value="B-">B-</option>
+<option value="O-">O-</option>
+<option value="O+">O+</option>
+</td> </select></tr>
+<tr>
+    <td><label for="date of birth">Date of Birth:</label></td>
+    <td><input type="date" id="date of birth" value="date of birth" ></td>
+</tr>
+<tr>
+<td><label for="course">Course:</label></td>
+<td><select>
+    <option value="b.e">B.E</option>
+    <option value="b.tech">B.TECH</option>
+</td></select>
+</tr>
+<tr>
+    <td><label for="department">Department:</label>
+        <td><select>
+            <option value="it">IT</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="eee">EEE</option>
+        </td></select>
+</tr>
+<tr>
+    <td><label for="semester">Semester:</label></td>
+    <td><input type="number" value="1"></td>
     </tr>
     <tr>
-<td><label for="gender">Gender:</label></td>
-<td><label for="female">Female</label></td>
-<td><input type="radio" id="female" name="female"></td>
-
+        <td><label for="mobile no">Mobile No.</label></td>
+        <td><input type="text" id="mobile number" placeholder="1234567890"></td>
+    </tr>
+    <tr>
+        <td><label for="email id">Email Id:</label></td>
+        <td><input type="email id" id="email id" placeholder="abc123@gmail.com"></td>
+    </tr>
+<tr>
+    <td><label for="address">Address:</label></td>
+    <td><textarea id="address" name="address" rows="5" cols="20"></textarea></td>
 </tr>
-
-
-
+<tr>
+<td><label for="father name".>Father Name:</label></td>
+<td><input type="text" id="father name"></td>
 </tr>
+<tr>
+    <td><label for="mother name">Mother Name:</label></td>
+    <td><input type="text" id="mother name" ></td>
 </tr>
-
-
-
-
-
-
-
-
-
-
-
-
+<tr>
+    <td><label for="parent contact no.">Parent Contact No.</label></td>
+    <td><input type="text" id="parent contact no." placeholder="9087654321"></td>
 </tr>
+<tr>
+    <td><label for="aadhaar no.">Aadhaar No.</label></td>
+    <td><input type="text" id="text"></td>
+    </tr>
+    <tr>
+        <td><label for="community">Community:</label></td>
+        <td><select>
+<option value="bc">BC</option>
+<option value="mbc">MBC</option>
+<option value="oc">OC</option>
+<option value="sc">SC</option>
+<option value="st">ST</option>
+ </td> </select> </tr>
 </table>
     </form>
-
-    </fieldset>
+ </fieldset>
 </body>
